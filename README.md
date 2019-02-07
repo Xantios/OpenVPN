@@ -13,10 +13,12 @@ It also generates a client config witch automatically inputs your server IP (Tha
 
 Just type "./openvpn.sh" in the folder where README.md is located.
 
-In the "keys" folder you will notice the two client scripts.
+In the main folder you will notice the two client scripts.
 To add a client, just type "./addclient.sh client1". Substitute "client1" with the name you want your VPN client to have.
 
 To revoke and remove a certificate, just type "./rmclient.sh client1". Again, same client name options.
+
+Reminder! If the first key is created, it wil automatically create a "keys" folder.
 
 The container automatically detects if it is being run for the first time, so it will automatically build and install the necesarry certificates for you.
 
