@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.9
 
 RUN apk update ; apk add openvpn git bash openssl vim iptables
 RUN git clone https://github.com/OpenVPN/easy-rsa.git /usr/share/easy-rsa
