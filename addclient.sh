@@ -4,11 +4,6 @@ FILE=$1
 
 WAN_IP=$(curl -s api.ipify.org)
 
-if ! [ -x "$(command -v zip)" ]; then
-echo 'Error: zip is not installed. If you use a Debian based distribution, "apt-get install zip". If it is a redhat based distribution. "yum install zip"' >&2
-exit 1
-fi
-
 if ! [ -x "$(command -v curl)" ]; then
 echo 'Error: curl is not installed. If you use a Debian based distribution, "apt-get install curl". If it is a redhat based distribution. "yum install curl"' >&2
 exit 1
