@@ -9,7 +9,7 @@ This VPN server includes:
 
 It also generates a client config witch automatically inputs your server IP (Thanks @xantios for this addon!)
 
-Also, you have to ajust a line in server.conf to suit your own internal ip range.
+Also, you have to adjust a line in server.conf to suit your own internal ip range.
 Server.conf is located in the files folder in the root of the vpn server.
 adjust this line: `push "route 10.10.10.0 255.255.255.0"`
 
